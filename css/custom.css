@@ -1,0 +1,103 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+
+.helper-div{
+    height: 80px;
+}
+
+.section-title{
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+.carousel-control-prev-icon,.carousel-control-next,.carousel-indicators{
+    filter: invert(1);
+}
+.banner-section{
+    margin-top: 100px;
+}
+/* .category-section,.shoes-section,.backpack-section,.banner-section,.subscribe-section {
+    margin-bottom: 50px;
+} */
+
+.panda-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.my-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.category-col a{
+    text-decoration: none;
+}
+
+.category-col a:hover  .category-1{
+    transform: scale(1.2);
+}
+.category-col a:hover  .category-2{
+    transform: scale(1.2);
+}
+.category-col a:hover  .category-3{
+    transform: scale(1.2);
+}
+.category-1{
+    background-color: orange;
+}
+.category-2{
+    background-color: orchid;
+}
+.category-3{
+    background-color: blue;
+}
+
+.category-1,.category-2,.category-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    transition: transform .5s ease-in-out;
+}
+
+.category-col{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+    overflow: hidden;
+}
+
+.card img{
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.card h5{
+    font-weight: 600;
+}
+
+.footer-section{
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+}
