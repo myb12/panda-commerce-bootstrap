@@ -104,3 +104,26 @@ h1{
    border-bottom-left-radius: 0%;
    border-bottom-right-radius: 0%;
 }
+/* input{
+    background-image: url(../images/search-solid.svg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 30px;
+    background-origin:content-box
+} */
+
+@media only screen and (max-width:991px) {
+    /* removing transform when hover from mobile view */
+    .card:hover img{
+        transform: scale(1);
+    }
+    .category-col a:hover .category-1{
+        transform: scale(1);
+    }
+    .category-col a:hover .category-2{
+        transform: scale(1);
+    }
+    .category-col a:hover .category-3{
+        transform: scale(1);
+    }
+}
